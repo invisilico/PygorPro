@@ -1,19 +1,11 @@
-This code exists becuase I was too lazy to learn Igor, so I found a way to play the waves I recorded by patch clamp ephys.
+This code exists becuase I was too lazy to learn Igor, so I found a way to play with the waves I recorded during optogenetics assisted circuit mapping experiments.
 
-intended uses:
+The PygorPro series is for the analysis of patching data.
 
-identify protocols
+The BehavePro series analyses the output from simba, using ethovision hardware control logs to synchronise spike timing.
 
-analyse peak amplitudes, throw away bad data
+The BehaveVid series generates videos with the analysed data.
 
-generate plots automatically with Rs and Cs
+---
 
-generate entire figure page for each cell in vector graphics
-
-Dependencies:
-Igor (packag by wking)
-Matplotlib.pyplot
-numpy
-pandas
-os
-seaborn
+Developed by Nish [invisilico] @ LSYM BMI SV EPFL
